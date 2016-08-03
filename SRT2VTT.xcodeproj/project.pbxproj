@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D90686651D52786C0087D3EC /* SRT2VTT.h in Headers */ = {isa = PBXBuildFile; fileRef = D90686641D52786C0087D3EC /* SRT2VTT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D906866C1D52786C0087D3EC /* SRT2VTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90686611D52786C0087D3EC /* SRT2VTT.framework */; };
+		D90686711D52786C0087D3EC /* SRT2VTTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D90686701D52786C0087D3EC /* SRT2VTTTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D906866D1D52786C0087D3EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D90686581D52786C0087D3EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D90686601D52786C0087D3EC;
+			remoteInfo = SRT2VTT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D90686611D52786C0087D3EC /* SRT2VTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SRT2VTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90686641D52786C0087D3EC /* SRT2VTT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRT2VTT.h; sourceTree = "<group>"; };
+		D90686661D52786C0087D3EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D906866B1D52786C0087D3EC /* SRT2VTTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRT2VTTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90686701D52786C0087D3EC /* SRT2VTTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRT2VTTTests.m; sourceTree = "<group>"; };
+		D90686721D52786C0087D3EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D906865D1D52786C0087D3EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90686681D52786C0087D3EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D906866C1D52786C0087D3EC /* SRT2VTT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D90686571D52786C0087D3EC = {
+			isa = PBXGroup;
+			children = (
+				D90686631D52786C0087D3EC /* SRT2VTT */,
+				D906866F1D52786C0087D3EC /* SRT2VTTTests */,
+				D90686621D52786C0087D3EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D90686621D52786C0087D3EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D90686611D52786C0087D3EC /* SRT2VTT.framework */,
+				D906866B1D52786C0087D3EC /* SRT2VTTTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D90686631D52786C0087D3EC /* SRT2VTT */ = {
+			isa = PBXGroup;
+			children = (
+				D90686641D52786C0087D3EC /* SRT2VTT.h */,
+				D90686661D52786C0087D3EC /* Info.plist */,
+			);
+			path = SRT2VTT;
+			sourceTree = "<group>";
+		};
+		D906866F1D52786C0087D3EC /* SRT2VTTTests */ = {
+			isa = PBXGroup;
+			children = (
+				D90686701D52786C0087D3EC /* SRT2VTTTests.m */,
+				D90686721D52786C0087D3EC /* Info.plist */,
+			);
+			path = SRT2VTTTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D906865E1D52786C0087D3EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90686651D52786C0087D3EC /* SRT2VTT.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D90686601D52786C0087D3EC /* SRT2VTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90686751D52786C0087D3EC /* Build configuration list for PBXNativeTarget "SRT2VTT" */;
+			buildPhases = (
+				D906865C1D52786C0087D3EC /* Sources */,
+				D906865D1D52786C0087D3EC /* Frameworks */,
+				D906865E1D52786C0087D3EC /* Headers */,
+				D906865F1D52786C0087D3EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRT2VTT;
+			productName = SRT2VTT;
+			productReference = D90686611D52786C0087D3EC /* SRT2VTT.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D906866A1D52786C0087D3EC /* SRT2VTTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90686781D52786C0087D3EC /* Build configuration list for PBXNativeTarget "SRT2VTTTests" */;
+			buildPhases = (
+				D90686671D52786C0087D3EC /* Sources */,
+				D90686681D52786C0087D3EC /* Frameworks */,
+				D90686691D52786C0087D3EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D906866E1D52786C0087D3EC /* PBXTargetDependency */,
+			);
+			name = SRT2VTTTests;
+			productName = SRT2VTTTests;
+			productReference = D906866B1D52786C0087D3EC /* SRT2VTTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D90686581D52786C0087D3EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Aggelos Papageorgiou";
+				TargetAttributes = {
+					D90686601D52786C0087D3EC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LSMKHW6LLV;
+					};
+					D906866A1D52786C0087D3EC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LSMKHW6LLV;
+					};
+				};
+			};
+			buildConfigurationList = D906865B1D52786C0087D3EC /* Build configuration list for PBXProject "SRT2VTT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D90686571D52786C0087D3EC;
+			productRefGroup = D90686621D52786C0087D3EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D90686601D52786C0087D3EC /* SRT2VTT */,
+				D906866A1D52786C0087D3EC /* SRT2VTTTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D906865F1D52786C0087D3EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90686691D52786C0087D3EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D906865C1D52786C0087D3EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90686671D52786C0087D3EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90686711D52786C0087D3EC /* SRT2VTTTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D906866E1D52786C0087D3EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D90686601D52786C0087D3EC /* SRT2VTT */;
+			targetProxy = D906866D1D52786C0087D3EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D90686731D52786C0087D3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D90686741D52786C0087D3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D90686761D52786C0087D3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SRT2VTT/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gr.Aggelos.SRT2VTT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D90686771D52786C0087D3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SRT2VTT/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gr.Aggelos.SRT2VTT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D90686791D52786C0087D3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SRT2VTTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gr.Aggelos.SRT2VTTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D906867A1D52786C0087D3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SRT2VTTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gr.Aggelos.SRT2VTTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D906865B1D52786C0087D3EC /* Build configuration list for PBXProject "SRT2VTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90686731D52786C0087D3EC /* Debug */,
+				D90686741D52786C0087D3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90686751D52786C0087D3EC /* Build configuration list for PBXNativeTarget "SRT2VTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90686761D52786C0087D3EC /* Debug */,
+				D90686771D52786C0087D3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D90686781D52786C0087D3EC /* Build configuration list for PBXNativeTarget "SRT2VTTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90686791D52786C0087D3EC /* Debug */,
+				D906867A1D52786C0087D3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D90686581D52786C0087D3EC /* Project object */;
+}
