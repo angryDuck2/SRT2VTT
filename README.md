@@ -12,4 +12,4 @@ The vtt file is stored on the same directory as the initial file with the same n
 
 All you need to use this library is to input it on your podfile
 
-`pod 'SRT2VTT', :git => 'https://github.com/aggelos81/SRT2VTT.gir'`
+`pod 'SRT2VTT', :git => 'https://github.com/aggelos81/SRT2VTT.git'`
