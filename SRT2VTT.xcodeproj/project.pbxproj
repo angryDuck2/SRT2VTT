@@ -44,6 +44,7 @@
 		D921DFC31D534F7600688619 /* text_encoding_detect.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DFA21D534F7600688619 /* text_encoding_detect.h */; };
 		D921DFC41D534F7600688619 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D921DFA31D534F7600688619 /* Utils.cpp */; };
 		D921DFC51D534F7600688619 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DFA41D534F7600688619 /* Utils.h */; };
+		D948805D1D53DBD4002EFD88 /* Batman V Superman Dawn Of Justice (2016) [1080p] [YTS.AG].srt in Resources */ = {isa = PBXBuildFile; fileRef = D948805C1D53DBD4002EFD88 /* Batman V Superman Dawn Of Justice (2016) [1080p] [YTS.AG].srt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		D921DFA21D534F7600688619 /* text_encoding_detect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text_encoding_detect.h; sourceTree = "<group>"; };
 		D921DFA31D534F7600688619 /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
 		D921DFA41D534F7600688619 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		D948805C1D53DBD4002EFD88 /* Batman V Superman Dawn Of Justice (2016) [1080p] [YTS.AG].srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Batman V Superman Dawn Of Justice (2016) [1080p] [YTS.AG].srt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				D90686701D52786C0087D3EC /* SRT2VTTTests.m */,
+				D948805C1D53DBD4002EFD88 /* Batman V Superman Dawn Of Justice (2016) [1080p] [YTS.AG].srt */,
 				D90686721D52786C0087D3EC /* Info.plist */,
 			);
 			path = SRT2VTTTests;
@@ -349,6 +352,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D948805D1D53DBD4002EFD88 /* Batman V Superman Dawn Of Justice (2016) [1080p] [YTS.AG].srt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -31,11 +31,11 @@
     try{
         // Convert
         
-        Converter converter(0, [[[filePath URLByDeletingLastPathComponent] relativeString] cStringUsingEncoding:NSUTF8StringEncoding], false, true);
+        Converter converter(0, [[filePath URLByDeletingLastPathComponent] fileSystemRepresentation] , true, false);
         NSFileManager* fileManager =[[NSFileManager alloc]init];
         NSString* VTTfile = [[filePath lastPathComponent] stringByReplacingOccurrencesOfString:@"srt" withString:@"vtt"];
         [fileManager createFileAtPath:VTTfile contents:nil attributes:nil];
-        int retCode = converter.convertFile([[filePath relativePath] cStringUsingEncoding:NSUTF8StringEncoding]);
+        int retCode = converter.convertFile([[filePath relativePath] fileSystemRepresentation]);
         NSURL* outputURL = [filePath URLByDeletingLastPathComponent];
         outputURL = [outputURL URLByAppendingPathComponent:VTTfile];
         return outputURL;

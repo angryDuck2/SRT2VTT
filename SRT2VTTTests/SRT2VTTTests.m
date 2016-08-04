@@ -27,7 +27,8 @@
 
 - (void)testExample {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Sub conversion"];
-    NSURL* VTTFile = [[SRT sharedConverter] convertFileToVTT:[NSURL URLWithString:[[NSBundle bundleForClass:[SRT2VTTTests class]] pathForResource:@"subs1" ofType:@"srt"]]];
+    NSString* fileURL = [[NSBundle bundleForClass:[SRT2VTTTests  class]]pathForResource:@"Batman V Superman Dawn Of Justice (2016) [1080p] [YTS.AG]" ofType:@"srt"];
+    NSURL* VTTFile = [[SRT sharedConverter] convertFileToVTT:[NSURL fileURLWithPath:fileURL]];
     XCTAssertNotEqual([VTTFile absoluteString],@"/");
     NSLog(@"vtt file path %@",[VTTFile absoluteString]);
     [expectation fulfill];
