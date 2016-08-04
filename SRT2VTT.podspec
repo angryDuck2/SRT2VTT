@@ -9,5 +9,4 @@ Pod::Spec.new do |s|
   s.source = { :http => "https://github.com/aggelos81/SRT2VTT/releases/download/1.0/SRT2VTT.framework.zip" }
   s.ios.deployment_target = '9.0'
   s.vendored_frameworks = "Carthage/Build/iOS/SRT2VTT.framework"
-  end
 end
