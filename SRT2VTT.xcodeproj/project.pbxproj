@@ -10,6 +10,40 @@
 		D90686651D52786C0087D3EC /* SRT2VTT.h in Headers */ = {isa = PBXBuildFile; fileRef = D90686641D52786C0087D3EC /* SRT2VTT.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D906866C1D52786C0087D3EC /* SRT2VTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90686611D52786C0087D3EC /* SRT2VTT.framework */; };
 		D90686711D52786C0087D3EC /* SRT2VTTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D90686701D52786C0087D3EC /* SRT2VTTTests.m */; };
+		D90686C61D5278FD0087D3EC /* SRT.mm in Sources */ = {isa = PBXBuildFile; fileRef = D90686C41D5278FD0087D3EC /* SRT.mm */; };
+		D921DF3B1D534D6500688619 /* SRT.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF3A1D53495C00688619 /* SRT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D921DFA51D534F7600688619 /* Arg.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF831D534F7600688619 /* Arg.h */; };
+		D921DFA61D534F7600688619 /* ArgException.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF841D534F7600688619 /* ArgException.h */; };
+		D921DFA71D534F7600688619 /* ArgTraits.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF851D534F7600688619 /* ArgTraits.h */; };
+		D921DFA81D534F7600688619 /* CmdLine.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF861D534F7600688619 /* CmdLine.h */; };
+		D921DFA91D534F7600688619 /* CmdLineInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF871D534F7600688619 /* CmdLineInterface.h */; };
+		D921DFAA1D534F7600688619 /* CmdLineOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF881D534F7600688619 /* CmdLineOutput.h */; };
+		D921DFAB1D534F7600688619 /* Constraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF891D534F7600688619 /* Constraint.h */; };
+		D921DFAC1D534F7600688619 /* DocBookOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF8A1D534F7600688619 /* DocBookOutput.h */; };
+		D921DFAD1D534F7600688619 /* HelpVisitor.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF8B1D534F7600688619 /* HelpVisitor.h */; };
+		D921DFAE1D534F7600688619 /* IgnoreRestVisitor.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF8C1D534F7600688619 /* IgnoreRestVisitor.h */; };
+		D921DFAF1D534F7600688619 /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = D921DF8D1D534F7600688619 /* Makefile.am */; };
+		D921DFB01D534F7600688619 /* Makefile.in in Resources */ = {isa = PBXBuildFile; fileRef = D921DF8E1D534F7600688619 /* Makefile.in */; };
+		D921DFB11D534F7600688619 /* MultiArg.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF8F1D534F7600688619 /* MultiArg.h */; };
+		D921DFB21D534F7600688619 /* MultiSwitchArg.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF901D534F7600688619 /* MultiSwitchArg.h */; };
+		D921DFB31D534F7600688619 /* OptionalUnlabeledTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF911D534F7600688619 /* OptionalUnlabeledTracker.h */; };
+		D921DFB41D534F7600688619 /* StandardTraits.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF921D534F7600688619 /* StandardTraits.h */; };
+		D921DFB51D534F7600688619 /* StdOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF931D534F7600688619 /* StdOutput.h */; };
+		D921DFB61D534F7600688619 /* SwitchArg.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF941D534F7600688619 /* SwitchArg.h */; };
+		D921DFB71D534F7600688619 /* UnlabeledMultiArg.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF951D534F7600688619 /* UnlabeledMultiArg.h */; };
+		D921DFB81D534F7600688619 /* UnlabeledValueArg.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF961D534F7600688619 /* UnlabeledValueArg.h */; };
+		D921DFB91D534F7600688619 /* ValueArg.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF971D534F7600688619 /* ValueArg.h */; };
+		D921DFBA1D534F7600688619 /* ValuesConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF981D534F7600688619 /* ValuesConstraint.h */; };
+		D921DFBB1D534F7600688619 /* VersionVisitor.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF991D534F7600688619 /* VersionVisitor.h */; };
+		D921DFBC1D534F7600688619 /* Visitor.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF9A1D534F7600688619 /* Visitor.h */; };
+		D921DFBD1D534F7600688619 /* XorHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF9B1D534F7600688619 /* XorHandler.h */; };
+		D921DFBE1D534F7600688619 /* ZshCompletionOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF9C1D534F7600688619 /* ZshCompletionOutput.h */; };
+		D921DFBF1D534F7600688619 /* Converter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D921DF9E1D534F7600688619 /* Converter.cpp */; };
+		D921DFC01D534F7600688619 /* Converter.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DF9F1D534F7600688619 /* Converter.h */; };
+		D921DFC21D534F7600688619 /* text_encoding_detect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D921DFA11D534F7600688619 /* text_encoding_detect.cpp */; };
+		D921DFC31D534F7600688619 /* text_encoding_detect.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DFA21D534F7600688619 /* text_encoding_detect.h */; };
+		D921DFC41D534F7600688619 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D921DFA31D534F7600688619 /* Utils.cpp */; };
+		D921DFC51D534F7600688619 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = D921DFA41D534F7600688619 /* Utils.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +63,40 @@
 		D906866B1D52786C0087D3EC /* SRT2VTTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRT2VTTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D90686701D52786C0087D3EC /* SRT2VTTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRT2VTTTests.m; sourceTree = "<group>"; };
 		D90686721D52786C0087D3EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D90686C41D5278FD0087D3EC /* SRT.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SRT.mm; sourceTree = "<group>"; };
+		D921DF3A1D53495C00688619 /* SRT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRT.h; sourceTree = "<group>"; };
+		D921DF831D534F7600688619 /* Arg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arg.h; sourceTree = "<group>"; };
+		D921DF841D534F7600688619 /* ArgException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArgException.h; sourceTree = "<group>"; };
+		D921DF851D534F7600688619 /* ArgTraits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArgTraits.h; sourceTree = "<group>"; };
+		D921DF861D534F7600688619 /* CmdLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CmdLine.h; sourceTree = "<group>"; };
+		D921DF871D534F7600688619 /* CmdLineInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CmdLineInterface.h; sourceTree = "<group>"; };
+		D921DF881D534F7600688619 /* CmdLineOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CmdLineOutput.h; sourceTree = "<group>"; };
+		D921DF891D534F7600688619 /* Constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constraint.h; sourceTree = "<group>"; };
+		D921DF8A1D534F7600688619 /* DocBookOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocBookOutput.h; sourceTree = "<group>"; };
+		D921DF8B1D534F7600688619 /* HelpVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpVisitor.h; sourceTree = "<group>"; };
+		D921DF8C1D534F7600688619 /* IgnoreRestVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IgnoreRestVisitor.h; sourceTree = "<group>"; };
+		D921DF8D1D534F7600688619 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		D921DF8E1D534F7600688619 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		D921DF8F1D534F7600688619 /* MultiArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiArg.h; sourceTree = "<group>"; };
+		D921DF901D534F7600688619 /* MultiSwitchArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiSwitchArg.h; sourceTree = "<group>"; };
+		D921DF911D534F7600688619 /* OptionalUnlabeledTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionalUnlabeledTracker.h; sourceTree = "<group>"; };
+		D921DF921D534F7600688619 /* StandardTraits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardTraits.h; sourceTree = "<group>"; };
+		D921DF931D534F7600688619 /* StdOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StdOutput.h; sourceTree = "<group>"; };
+		D921DF941D534F7600688619 /* SwitchArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchArg.h; sourceTree = "<group>"; };
+		D921DF951D534F7600688619 /* UnlabeledMultiArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnlabeledMultiArg.h; sourceTree = "<group>"; };
+		D921DF961D534F7600688619 /* UnlabeledValueArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnlabeledValueArg.h; sourceTree = "<group>"; };
+		D921DF971D534F7600688619 /* ValueArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValueArg.h; sourceTree = "<group>"; };
+		D921DF981D534F7600688619 /* ValuesConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValuesConstraint.h; sourceTree = "<group>"; };
+		D921DF991D534F7600688619 /* VersionVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionVisitor.h; sourceTree = "<group>"; };
+		D921DF9A1D534F7600688619 /* Visitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Visitor.h; sourceTree = "<group>"; };
+		D921DF9B1D534F7600688619 /* XorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XorHandler.h; sourceTree = "<group>"; };
+		D921DF9C1D534F7600688619 /* ZshCompletionOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZshCompletionOutput.h; sourceTree = "<group>"; };
+		D921DF9E1D534F7600688619 /* Converter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Converter.cpp; sourceTree = "<group>"; };
+		D921DF9F1D534F7600688619 /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converter.h; sourceTree = "<group>"; };
+		D921DFA11D534F7600688619 /* text_encoding_detect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = text_encoding_detect.cpp; sourceTree = "<group>"; };
+		D921DFA21D534F7600688619 /* text_encoding_detect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text_encoding_detect.h; sourceTree = "<group>"; };
+		D921DFA31D534F7600688619 /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		D921DFA41D534F7600688619 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +121,7 @@
 		D90686571D52786C0087D3EC = {
 			isa = PBXGroup;
 			children = (
+				D90686C21D5278AE0087D3EC /* Helper Files */,
 				D90686631D52786C0087D3EC /* SRT2VTT */,
 				D906866F1D52786C0087D3EC /* SRT2VTTTests */,
 				D90686621D52786C0087D3EC /* Products */,
@@ -72,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				D90686641D52786C0087D3EC /* SRT2VTT.h */,
+				D90686C41D5278FD0087D3EC /* SRT.mm */,
+				D921DF3A1D53495C00688619 /* SRT.h */,
 				D90686661D52786C0087D3EC /* Info.plist */,
 			);
 			path = SRT2VTT;
@@ -86,6 +157,69 @@
 			path = SRT2VTTTests;
 			sourceTree = "<group>";
 		};
+		D90686C21D5278AE0087D3EC /* Helper Files */ = {
+			isa = PBXGroup;
+			children = (
+				D921DF811D534F7600688619 /* deps */,
+				D921DF9D1D534F7600688619 /* src */,
+			);
+			name = "Helper Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		D921DF811D534F7600688619 /* deps */ = {
+			isa = PBXGroup;
+			children = (
+				D921DF821D534F7600688619 /* tclap */,
+			);
+			path = deps;
+			sourceTree = "<group>";
+		};
+		D921DF821D534F7600688619 /* tclap */ = {
+			isa = PBXGroup;
+			children = (
+				D921DF831D534F7600688619 /* Arg.h */,
+				D921DF841D534F7600688619 /* ArgException.h */,
+				D921DF851D534F7600688619 /* ArgTraits.h */,
+				D921DF861D534F7600688619 /* CmdLine.h */,
+				D921DF871D534F7600688619 /* CmdLineInterface.h */,
+				D921DF881D534F7600688619 /* CmdLineOutput.h */,
+				D921DF891D534F7600688619 /* Constraint.h */,
+				D921DF8A1D534F7600688619 /* DocBookOutput.h */,
+				D921DF8B1D534F7600688619 /* HelpVisitor.h */,
+				D921DF8C1D534F7600688619 /* IgnoreRestVisitor.h */,
+				D921DF8D1D534F7600688619 /* Makefile.am */,
+				D921DF8E1D534F7600688619 /* Makefile.in */,
+				D921DF8F1D534F7600688619 /* MultiArg.h */,
+				D921DF901D534F7600688619 /* MultiSwitchArg.h */,
+				D921DF911D534F7600688619 /* OptionalUnlabeledTracker.h */,
+				D921DF921D534F7600688619 /* StandardTraits.h */,
+				D921DF931D534F7600688619 /* StdOutput.h */,
+				D921DF941D534F7600688619 /* SwitchArg.h */,
+				D921DF951D534F7600688619 /* UnlabeledMultiArg.h */,
+				D921DF961D534F7600688619 /* UnlabeledValueArg.h */,
+				D921DF971D534F7600688619 /* ValueArg.h */,
+				D921DF981D534F7600688619 /* ValuesConstraint.h */,
+				D921DF991D534F7600688619 /* VersionVisitor.h */,
+				D921DF9A1D534F7600688619 /* Visitor.h */,
+				D921DF9B1D534F7600688619 /* XorHandler.h */,
+				D921DF9C1D534F7600688619 /* ZshCompletionOutput.h */,
+			);
+			path = tclap;
+			sourceTree = "<group>";
+		};
+		D921DF9D1D534F7600688619 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D921DF9E1D534F7600688619 /* Converter.cpp */,
+				D921DF9F1D534F7600688619 /* Converter.h */,
+				D921DFA11D534F7600688619 /* text_encoding_detect.cpp */,
+				D921DFA21D534F7600688619 /* text_encoding_detect.h */,
+				D921DFA31D534F7600688619 /* Utils.cpp */,
+				D921DFA41D534F7600688619 /* Utils.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +227,35 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D921DFAB1D534F7600688619 /* Constraint.h in Headers */,
+				D921DFA51D534F7600688619 /* Arg.h in Headers */,
+				D921DFA81D534F7600688619 /* CmdLine.h in Headers */,
+				D921DFAD1D534F7600688619 /* HelpVisitor.h in Headers */,
+				D921DFB81D534F7600688619 /* UnlabeledValueArg.h in Headers */,
+				D921DFBA1D534F7600688619 /* ValuesConstraint.h in Headers */,
+				D921DFBB1D534F7600688619 /* VersionVisitor.h in Headers */,
+				D921DFC51D534F7600688619 /* Utils.h in Headers */,
+				D921DFAA1D534F7600688619 /* CmdLineOutput.h in Headers */,
+				D921DFA91D534F7600688619 /* CmdLineInterface.h in Headers */,
+				D921DFA61D534F7600688619 /* ArgException.h in Headers */,
+				D921DFB21D534F7600688619 /* MultiSwitchArg.h in Headers */,
+				D921DFAE1D534F7600688619 /* IgnoreRestVisitor.h in Headers */,
+				D921DFB61D534F7600688619 /* SwitchArg.h in Headers */,
+				D921DFBE1D534F7600688619 /* ZshCompletionOutput.h in Headers */,
+				D921DFA71D534F7600688619 /* ArgTraits.h in Headers */,
+				D921DFB51D534F7600688619 /* StdOutput.h in Headers */,
+				D921DFB91D534F7600688619 /* ValueArg.h in Headers */,
+				D921DF3B1D534D6500688619 /* SRT.h in Headers */,
+				D921DFB31D534F7600688619 /* OptionalUnlabeledTracker.h in Headers */,
 				D90686651D52786C0087D3EC /* SRT2VTT.h in Headers */,
+				D921DFB11D534F7600688619 /* MultiArg.h in Headers */,
+				D921DFC01D534F7600688619 /* Converter.h in Headers */,
+				D921DFB41D534F7600688619 /* StandardTraits.h in Headers */,
+				D921DFC31D534F7600688619 /* text_encoding_detect.h in Headers */,
+				D921DFBD1D534F7600688619 /* XorHandler.h in Headers */,
+				D921DFAC1D534F7600688619 /* DocBookOutput.h in Headers */,
+				D921DFB71D534F7600688619 /* UnlabeledMultiArg.h in Headers */,
+				D921DFBC1D534F7600688619 /* Visitor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +340,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D921DFB01D534F7600688619 /* Makefile.in in Resources */,
+				D921DFAF1D534F7600688619 /* Makefile.am in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +359,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D921DFC21D534F7600688619 /* text_encoding_detect.cpp in Sources */,
+				D921DFBF1D534F7600688619 /* Converter.cpp in Sources */,
+				D90686C61D5278FD0087D3EC /* SRT.mm in Sources */,
+				D921DFC41D534F7600688619 /* Utils.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +546,7 @@
 				D90686771D52786C0087D3EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D90686781D52786C0087D3EC /* Build configuration list for PBXNativeTarget "SRT2VTTTests" */ = {
 			isa = XCConfigurationList;
@@ -386,6 +555,7 @@
 				D906867A1D52786C0087D3EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
