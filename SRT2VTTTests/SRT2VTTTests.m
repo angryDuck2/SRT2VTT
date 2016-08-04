@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-
+#import <SRT2VTT/SRT.h>
 @interface SRT2VTTTests : XCTestCase
 
 @end
@@ -24,9 +24,16 @@
     [super tearDown];
 }
 
+
 - (void)testExample {
+    XCTestExpectation *expectation = [self expectationWithDescription:@"Sub conversion"];
+    NSURL* VTTFile = [[SRT sharedConverter] convertFileToVTT:[NSURL URLWithString:[[NSBundle bundleForClass:[SRT2VTTTests class]] pathForResource:@"subs1" ofType:@"srt"]]];
+    XCTAssertNotEqual([VTTFile absoluteString],@"/");
+    NSLog(@"vtt file path %@",[VTTFile absoluteString]);
+    [expectation fulfill];
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    [self waitForExpectationsWithTimeout:60.0 * 5 handler:nil];
 }
 
 - (void)testPerformanceExample {

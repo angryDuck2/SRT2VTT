@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double SRT2VTTVersionNumber;
 FOUNDATION_EXPORT const unsigned char SRT2VTTVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SRT2VTT/PublicHeader.h>
-
+#import "SRT.h"
 
